@@ -131,3 +131,6 @@ Oct 15 14:27:04 nst-n1 k3s[1638]: E1015 14:27:04.807339    1638 csi_attacher.go:
 Oct 15 14:27:04 nst-n1 k3s[1638]: E1015 14:27:04.807494    1638 nestedpendingoperations.go:348] Operation for "{volumeName:kubernetes.io/csi/driver.longhorn.io^pvc-839796bf-1607-4d50-b009-05bcd389be0b podName: nodeName:}" failed. No retries permitted until 2026-10-15 14:29:06.807445138 +0000 UTC m=+256942.436827303 (durationBeforeRetry 2m2s). Error: AttachVolume.Attach failed for volume "pvc-839796bf-1607-4d50-b009-05bcd389be0b" (UniqueName: "kubernetes.io/csi/driver.longhorn.io^pvc-839796bf-1607-4d50-b009-05bcd389be0b") from node "nst-n1" : CSINode nst-n1 does not contain driver driver.longhorn.io
 Oct 15 14:27:21 nst-n1 sudo[367180]:   raghav : TTY=pts/0 ; PWD=/home/raghav ; USER=root ; COMMAND=/usr/bin/journalctl --since '10 minutes ago'
 Oct 15 14:27:21 nst-n1 sudo[367180]: pam_unix(sudo:session): session opened for user root(uid=0) by raghav(uid=1036)
+[main 061107b] Linux Log's
+ 2 files changed, 137 insertions(+), 3 deletions(-)
+ create mode 100644 mylogLinux.txt
